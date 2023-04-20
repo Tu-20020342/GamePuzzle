@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600&family=Poppins:wght@400;500;600&family=Tilt+Prism&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Prism', cursive;
+}
+
+body{
+    background-image: url(anh-may-hoat-hinh.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 320px 200px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 320px 200px;
+    justify-content: center;
+    border: 2px solid blueviolet;
+    width: 650px;
+    padding: 24px;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+.side_bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+#board{
+    border: 2px solid tomato;
+}
+
+.play{
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 26px;
+    font-weight: 900;
+    color: yellow;
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+}
+
+.text{
+    color: tomato;
+}
